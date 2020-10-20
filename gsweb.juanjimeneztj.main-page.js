@@ -11,7 +11,7 @@ $(document).ready(function(){
 function GSWEB_hideModal(){
     setInterval(() => {
         $('.elementor-popup-modal').hide();
-    }, 500);
+    }, 1);
 }
 
 function GSWEB_init(){
