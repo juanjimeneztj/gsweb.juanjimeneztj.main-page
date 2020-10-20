@@ -9,6 +9,7 @@ $(document).ready(function(){
 });
 
 function GSWEB_hideModal(){
+    $('head').append('<style>.elementor-popup-modal{opacity: 0!important}</style>');
     setInterval(() => {
         $('.elementor-popup-modal').hide();
     }, 1);
